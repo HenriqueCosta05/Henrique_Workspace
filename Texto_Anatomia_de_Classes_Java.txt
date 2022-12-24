@@ -1,0 +1,37 @@
+Anatomia das Classes em Java (I)
+
+*Escrita de códigos -> Composição de palavras pré-definidas
+com expressões utilizadas para nomear arquivos.
+
+*Sintaxe de declaração de uma nova CLASSE:
+
+public class NomeArquivo {
+    
+}
+
+*Sintaxe de uma classe EXECUTÁVEL, isto é, independente:
+
+public class NomeArquivo {
+public static void main (String[]args) {
+    System.out.print("Sua mensagem");
+}
+
+}
+
+Anatomia das Classes em Java (II)
+
+*Nomenclatura e convenções de escrita em Java
+-Arquivo .java: início com letra maiúscula, bem como palavras posteriores.
+-Classe: mesmo nome do arquivo .java.
+-Variável: modelo camelCase (quando escrita em caracteres maiúsculos, tem seu valor considerado IMUTÁVEL.),
+podendo-se usar _, &, números e letras.
+
+Anatomia das Classes em Java (III)
+
+*Declaração de Variáveis e Métodos
+-Estrutura para variáveis: Tipo NomeBemDefinido = Atribuição (opcional em alguns casos)
+-Estrutura para métodos: TipoRetorno NomeObjetivoNoInfinitivo Parametro(s)
+
+Anatomia das Classes em Java (IV)
+
+*Identação
