@@ -35,3 +35,10 @@ Anatomia das Classes em Java (III)
 Anatomia das Classes em Java (IV)
 
 *Identação
+-Conceito: Escrever o código do programa de forma hierárquica, facilitando a visualização e o entendimento do programa.
+
+Anatomia das Classes em Java (V)
+
+*Organizando arquivos
+-Conveções de abreviação: (com) - comercial/ (org) organizacional/opensource (edu) educação
+-Exemplos(abreviação.nomedaempresa.nomedoprojeto.pacotes): com.hypertech.notification.service
