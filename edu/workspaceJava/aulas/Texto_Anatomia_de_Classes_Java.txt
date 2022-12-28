@@ -42,3 +42,14 @@ Anatomia das Classes em Java (V)
 *Organizando arquivos
 -Conveções de abreviação: (com) - comercial/ (org) organizacional/opensource (edu) educação
 -Exemplos(abreviação.nomedaempresa.nomedoprojeto.pacotes): com.hypertech.notification.service
+
+Anatomia das Classes em Java (VI)
+
+*Java Beans
+-Conceito: a linguagem Java sugere, através de convenções, formas de escrita universa para as classes, atributos, métodos e pacotes.
+-Regras de Nomenclatura
+1. Uma variável deve ser clara, sem abreviações ou definição sem sentido;
+2. Uma variável é escrita SEMPRE NO SINGULAR, exceto quando refere-se a um array ou coleção.
+3. Defina um idioma único para suas variáveis. 
+-Regras de Nomenclatura para métodos
+1. Os métodos deverão ser nomeados como verbos, através de uma mistura de letras maiúsculas e minpusculas.

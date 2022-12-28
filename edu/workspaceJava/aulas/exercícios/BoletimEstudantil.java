@@ -1,3 +1,4 @@
+package edu.workspaceJava.aulas.exercícios;
 
 public class BoletimEstudantil {
     public static void main(String[] args) {
