@@ -1,0 +1,2 @@
+Este é o meu Repositório. Nele, encontra-se meu portfólio, bem como escopos de projetos criados durante minha formação acadêmica e profissional. Siga-me no Linkedin! https://www.linkedin.com/in/henriquecosta05/
+This is my repositorY. There is my portfolio, as well as all the projects I took part during my studies. Please, follow me on linkedin! https://www.linkedin.com/in/henriquecosta05/
