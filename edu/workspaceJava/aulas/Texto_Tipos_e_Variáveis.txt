@@ -5,3 +5,17 @@ Numéricos inteiros e decimais
 -Caracteres
 -Objetos
 -Diferença entre variável e constante.
+
+Tipos e Variáveis (II) - Tipos de Dados
+*Existem determinadas palavras reservadas para a representação dos tipos de dados
+básicos que precisam ser manipulados para a construção de programas. No total, são
+oito palavras, denominadas tipos primitivos.
+
+*int, byte, short, long, float, double, boolen e char.
+*O ponto mais relevante em compreender a definição dos tipos de dados é o momento da 
+definição do tipo para uma variável. 
+
+*Declaração de variáveis
+-Conceito: Variável é uma identificação de um espaço em memória utilizado pelo programa. 
+Seguindo as convenções em linguagem de programação, toda variável é composta por: tipo de dados
++ identificação + valor atribuído.

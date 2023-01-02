@@ -1,0 +1,9 @@
+body {
+    background-image: url(D:/Images/Background.jpg);
+    max-width:80%;
+}
+
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
