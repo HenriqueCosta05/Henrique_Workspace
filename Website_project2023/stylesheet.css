@@ -1,9 +1,23 @@
 body {
-    background-image: url(D:/Images/Background.jpg);
-    max-width:80%;
+    background-color: #494d5f;
+    color: #E5EAF5;
+    text-align: center;
+    
 }
 
-h1, h2, h3 {
+h1 {
+    font-style: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto;
+    margin-inline: auto;
+    text-align: center;
+}
+h2, h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
+}
+
+.aboutMe {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
 }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Basic Form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/Survey-Project(HTML_CSS)/styles.css" rel="stylesheet.css"> 
+  </head>
+  <body>
+    <div class="header">
+      <h1 id="title">Formulary Project</h1>
+      <p id="description">This is a project created with the purpose of creating a simple project in order to put my CSS and HTML knowledge into practice.</p>
+    </div>
+    <form id="survey-form">
+      <br>
+      <fieldset>
+        <legend>Enter your name: </legend>
+<label id="name-label" for="name"><input id="input-name" type="text" placeholder="Name: " required ></label>
+      </fieldset>
+      <fieldset>
+        <legend>Enter your email:</legend>
+
+          <label id="email-label" placeholder="Email" for="email-label"><input id="email" type="email" name="submit-email" placeholder="Email: " required /> </label> <br>
+          <fieldset>
+        <legend>Enter a number (1-100):</legend>
+        <label id="number-label" placeholder="1-100" for="number"><input placeholder="1-100" type="number" id="number" min="0" max="100"/><br>
+        </fieldset>
+        <fieldset>
+        <br><legend>Checkboxes</legend>
+        <label for="checkbox-"><input id="check1" type="checkbox" value="terms" required/> I agree with the terms and conditions. </label>
+       <br><label for="checkbox1"><input id="check2" type="checkbox" value="random" required /> I am a happy coder!</label> <br>
+        <br><button id="submit" type="submit">Submit</button>
+    </form>
+    </div>
+  </body>

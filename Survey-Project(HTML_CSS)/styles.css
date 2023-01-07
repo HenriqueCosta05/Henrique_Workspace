@@ -1,0 +1,22 @@
+body {
+    display: block;
+    background-color: #494D5f;
+    color: #E5EAF5;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+form {
+    font-family: helvetica;
+    background-color:#494D5f;
+    color:#E5EAF5;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+h1,
+p {
+    font-family: helvetica;
+}
