@@ -5,32 +5,49 @@
     <title>Basic Form</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/Survey-Project(HTML_CSS)/styles.css" rel="stylesheet.css"> 
+    <link rel="stylesheet" href="styles.css"> 
   </head>
   <body>
     <div class="header">
       <h1 id="title">Formulary Project</h1>
-      <p id="description">This is a project created with the purpose of creating a simple project in order to put my CSS and HTML knowledge into practice.</p>
+      <p id="description">This is a project created to put my CSS and HTML knowledge into practice.</p>
     </div>
     <form id="survey-form">
       <br>
-      <fieldset>
+      <!--Name input-->
         <legend>Enter your name: </legend>
-<label id="name-label" for="name"><input id="input-name" type="text" placeholder="Name: " required ></label>
-      </fieldset>
-      <fieldset>
-        <legend>Enter your email:</legend>
-
-          <label id="email-label" placeholder="Email" for="email-label"><input id="email" type="email" name="submit-email" placeholder="Email: " required /> </label> <br>
-          <fieldset>
-        <legend>Enter a number (1-100):</legend>
-        <label id="number-label" placeholder="1-100" for="number"><input placeholder="1-100" type="number" id="number" min="0" max="100"/><br>
-        </fieldset>
-        <fieldset>
-        <br><legend>Checkboxes</legend>
-        <label for="checkbox-"><input id="check1" type="checkbox" value="terms" required/> I agree with the terms and conditions. </label>
-       <br><label for="checkbox1"><input id="check2" type="checkbox" value="random" required /> I am a happy coder!</label> <br>
-        <br><button id="submit" type="submit">Submit</button>
-    </form>
+<label class="name" id="name-label" for="name" placeholder="name"><input id="name" type="text" placeholder="Name: " required></label> 
+<br>
+<br>
+<!--Email input-->
+      <legend>Enter your email:</legend>
+          <label id="email-label" placeholder="email-submit" for="email-label" class="email"><input id="email" type="email" name="submit-email" placeholder="Email: " required /></label> 
+          <br>
+<!--Number input-->
+        <br> <legend>Enter a number (1-100):</legend>
+        <label id="number-label" placeholder="1-100" for="number" class="number"><input type="number" id="number" min="0" max="100" placeholder=" 1-100 "/></label><br>
+    <div> <br><legend>Checkboxes</legend>
+        <label for="checkbox-" class="checkboxes"><input id="check1" type="checkbox" value="terms" /> I agree with the terms and conditions. </label>
+       <br><label for="checkbox1"><input id="check2" type="checkbox" value="random" required /> I am a happy coder!</label><br>
+    </div>
+<!-- Dropdown Options -->
+<div> 
+        <legend>How did you find out about this website?</legend>
+        <select type="dropdown" id="dropdown" placeholder="options" name="options">
+          <option id="select one:" placeholder="select one: ">Select one: </option>
+          <option id="internet" placeholder="internet">Internet</option>
+          <option id="friends" placeholder="friends">Friends</option>
+          <option id="other" placeholder="other">Other</option>
+          <br>
+</div>
+<!--Radio Buttons -->
+<div>
+    <label class="radio" id="radio-button" type="radio" name="group" placeholder="radio-required"><input id="radio-button" type="radio" value="yes" name="yes" placeholder="required" required>I agree with terms and conditions. </label>
+</div> 
+<br>
+<br><button type="submit" id="submit">Submit</button><br>
+</form> 
+<br><textarea id="suggestions??" placeholder="Do you have suggestions?"></textarea>
+<button type="submit" required>Submit</button>
     </div>
   </body>
