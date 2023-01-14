@@ -8,46 +8,38 @@
     <link rel="stylesheet" href="styles.css"> 
   </head>
   <body>
-    <div class="header">
+    <header>
       <h1 id="title">Formulary Project</h1>
-      <p id="description">This is a project created to put my CSS and HTML knowledge into practice.</p>
-    </div>
-    <form id="survey-form">
+      <p id="description">This is the first project I created to put my CSS and HTML knowledge into practice.</p>
+    </header>
+    <div class="formulary">
+    <form id="survey-form" class="main-survey">
       <br>
+<fieldset>
       <!--Name input-->
-        <legend>Enter your name: </legend>
+        <legend>Enter your full name: </legend>
 <label class="name" id="name-label" for="name" placeholder="name"><input id="name" type="text" placeholder="Name: " required></label> 
 <br>
 <br>
 <!--Email input-->
-      <legend>Enter your email:</legend>
+      <legend>Enter your best email:</legend>
           <label id="email-label" placeholder="email-submit" for="email-label" class="email"><input id="email" type="email" name="submit-email" placeholder="Email: " required /></label> 
           <br>
 <!--Number input-->
-        <br> <legend>Enter a number (1-100):</legend>
-        <label id="number-label" placeholder="1-100" for="number" class="number"><input type="number" id="number" min="0" max="100" placeholder=" 1-100 "/></label><br>
-    <div> <br><legend>Checkboxes</legend>
-        <label for="checkbox-" class="checkboxes"><input id="check1" type="checkbox" value="terms" /> I agree with the terms and conditions. </label>
-       <br><label for="checkbox1"><input id="check2" type="checkbox" value="random" required /> I am a happy coder!</label><br>
-    </div>
+        <br><legend>Enter a password:</legend>
+        <label for="password"><input name="password-input" id="password" placeholder="Enter your password: " type="password"></label><br>
+    </fieldset>
 <!-- Dropdown Options -->
-<div> 
-        <legend>How did you find out about this website?</legend>
+        <br><legend>How did you find out about this website?</legend>
         <select type="dropdown" id="dropdown" placeholder="options" name="options">
           <option id="select one:" placeholder="select one: ">Select one: </option>
           <option id="internet" placeholder="internet">Internet</option>
           <option id="friends" placeholder="friends">Friends</option>
-          <option id="other" placeholder="other">Other</option>
-          <br>
+          <option id="other" placeholder="other">Other</option><br>
+<!--Radio Buttons-->
+    <br><label for="radio-buttons"><input id="radio-buttons" type="radio" class="radio" placeholder="radiobutton" required>I have visited <a href="https://www.freecodecamp.org/" alt="freecodecamp website">freecodecamp</a>'s website to check out their free and high-quality courses.</label>
+    <label for="checkboxes"><input id="checkboxes" type="checkbox" class="checkbox" placeholder="checkbox" required>I am a passionate learner.</label><br>
+<br><label for="button-submit"><input id="button-submit" type="submit" class="submit" required></label>
+</form>
 </div>
-<!--Radio Buttons -->
-<div>
-    <label class="radio" id="radio-button" type="radio" name="group" placeholder="radio-required"><input id="radio-button" type="radio" value="yes" name="yes" placeholder="required" required>I agree with terms and conditions. </label>
-</div> 
-<br>
-<br><button type="submit" id="submit">Submit</button><br>
-</form> 
-<br><textarea id="suggestions??" placeholder="Do you have suggestions?"></textarea>
-<button type="submit" required>Submit</button>
-    </div>
   </body>
