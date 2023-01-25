@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2020&q=80);
+    background-color: #155263;
     color: #ccd3e3;
     margin: 15px auto;
 }
@@ -21,13 +21,10 @@ h1 {
     padding: auto;
     margin-inline: auto;
     text-align: center;
+    color:#ff6f3c;
 }
 h2, h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
-}
-
-.aboutMe {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 200px;
+    color:#ff9a3c;
 }
